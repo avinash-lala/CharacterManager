@@ -4,6 +4,7 @@ import { CharacterDetailsComponent } from './character-details/character-details
 import { CharacterListComponent } from './character-list/character-list.component';
 
 const routes: Routes = [
+  { path: '', component: CharacterListComponent },
   { path: 'character/:id', component: CharacterDetailsComponent },
   { path: 'character-list', component: CharacterListComponent }
 ];
